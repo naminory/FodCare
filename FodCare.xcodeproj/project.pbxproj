@@ -20,12 +20,14 @@
 		47477C70A4282C807B486B2D /* FODMAPCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78854F4B0ADA419A2C8B95F5 /* FODMAPCategory.swift */; };
 		4C1FD707C0D8AB7115132DCC /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED324A052542A1C24F5FF8C /* ColorTheme.swift */; };
 		4F07977F0E7AE5CCBD4310B9 /* SymptomRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D08F5D09AA6EBA9E498BFB /* SymptomRecordView.swift */; };
+		4FF84BE25ABAECDF8ABB9A83 /* app_icon_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = C4F4212D7E0CBA723C09A1F2 /* app_icon_dark.png */; };
 		5CE3C638E12489F85DA65220 /* CorrelationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106C933D5F7BCA97121A79C1 /* CorrelationView.swift */; };
 		638F2E585754434D931B204F /* FODMAPChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F72FB5FEAC105AB524230C /* FODMAPChartView.swift */; };
 		6F0AE0BCD7138618AC320331 /* BristolScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4429ADB7FE0EE519370C86EA /* BristolScale.swift */; };
 		6F99B828978A4FD1D73A3253 /* SymptomRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC2122E783354748537E430 /* SymptomRecordViewModel.swift */; };
 		823F25A19ECC30FD708333D9 /* FoodSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201740AEB1789651049CDF7B /* FoodSearchView.swift */; };
 		89D84D2A49F450E9A702D957 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7804105E911DB0BC13E60F6 /* ContentView.swift */; };
+		8D89B4095C1476C6E803F9E9 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 250C795ED3274BBC1FDFB5D0 /* app_icon.png */; };
 		9AB4E536FE862CC61F85348A /* FODMAPBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1433ED9AE78444A335505B2D /* FODMAPBadge.swift */; };
 		9BEC59A223777E52DE2C7856 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54018733C69680AF4F81905F /* DataManager.swift */; };
 		A42104577E2A27A7414597D1 /* fodmap_foods_ja.json in Resources */ = {isa = PBXBuildFile; fileRef = C86B202C9C112D9B812AA7DC /* fodmap_foods_ja.json */; };
@@ -38,6 +40,7 @@
 		EC3DB2B176CEA3AA9053E4D5 /* FODMAPCategoryBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74F3F2E69F43385E68BAAB /* FODMAPCategoryBar.swift */; };
 		EEC68C7BD6A50FA0121F9961 /* FoodSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988C973B5ECE4E9C08AC55DB /* FoodSearchViewModel.swift */; };
 		F5B0B7210A7F3FD48A2D06AC /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5426DD0FACB3B5B8915E2 /* AnalysisView.swift */; };
+		F5D70D28D211E9D46E95DE1C /* app_icon_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F02A9F0B14D4F8A03588C0 /* app_icon_gray.png */; };
 		FA5A9495DBC4F9EFF71FC2EC /* MealFoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14CB1D77ECED4976FF5A5DF /* MealFoodEntry.swift */; };
 		FDA5524374E5BA59B5057AC1 /* MealRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E853FEE3B1200BE98286EC20 /* MealRecordView.swift */; };
 /* End PBXBuildFile section */
@@ -48,6 +51,7 @@
 		13C2A53C58973AF31FAF692C /* SymptomRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomRecord.swift; sourceTree = "<group>"; };
 		1433ED9AE78444A335505B2D /* FODMAPBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FODMAPBadge.swift; sourceTree = "<group>"; };
 		201740AEB1789651049CDF7B /* FoodSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSearchView.swift; sourceTree = "<group>"; };
+		250C795ED3274BBC1FDFB5D0 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
 		2E4C03671E7A6E4CC19052DC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		326FEA847C447D856CD3CA92 /* FODMAPInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FODMAPInfoView.swift; sourceTree = "<group>"; };
 		3968A0EB4C2148C0294E6865 /* MealRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRecord.swift; sourceTree = "<group>"; };
@@ -61,6 +65,7 @@
 		72F72FB5FEAC105AB524230C /* FODMAPChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FODMAPChartView.swift; sourceTree = "<group>"; };
 		78854F4B0ADA419A2C8B95F5 /* FODMAPCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FODMAPCategory.swift; sourceTree = "<group>"; };
 		988C973B5ECE4E9C08AC55DB /* FoodSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSearchViewModel.swift; sourceTree = "<group>"; };
+		99F02A9F0B14D4F8A03588C0 /* app_icon_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_gray.png; sourceTree = "<group>"; };
 		9D74F3F2E69F43385E68BAAB /* FODMAPCategoryBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FODMAPCategoryBar.swift; sourceTree = "<group>"; };
 		9ED324A052542A1C24F5FF8C /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
 		A0675E7196A8E345C44F9656 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
@@ -69,6 +74,7 @@
 		B47D999295144C0310A868F7 /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
 		B9D08F5D09AA6EBA9E498BFB /* SymptomRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomRecordView.swift; sourceTree = "<group>"; };
 		BFBFBBDA996C140A269A1A49 /* SymptomScoreIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomScoreIndicator.swift; sourceTree = "<group>"; };
+		C4F4212D7E0CBA723C09A1F2 /* app_icon_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_dark.png; sourceTree = "<group>"; };
 		C7804105E911DB0BC13E60F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C86B202C9C112D9B812AA7DC /* fodmap_foods_ja.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fodmap_foods_ja.json; sourceTree = "<group>"; };
 		D1163311D224A3F5935871A2 /* DateNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateNavigator.swift; sourceTree = "<group>"; };
@@ -105,6 +111,16 @@
 				72F72FB5FEAC105AB524230C /* FODMAPChartView.swift */,
 			);
 			path = Analysis;
+			sourceTree = "<group>";
+		};
+		64D46EC408E4BF5D76BE5951 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4F4212D7E0CBA723C09A1F2 /* app_icon_dark.png */,
+				99F02A9F0B14D4F8A03588C0 /* app_icon_gray.png */,
+				250C795ED3274BBC1FDFB5D0 /* app_icon.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		786454B4B17FE56879FCAE25 /* Utilities */ = {
@@ -216,6 +232,7 @@
 				F239E7F094910A22D41BFDC6 /* App */,
 				E652B068F502D48F22774B5D /* Data */,
 				E7C9FD6A35787A2EB24D5EFE /* Models */,
+				64D46EC408E4BF5D76BE5951 /* Resources */,
 				786454B4B17FE56879FCAE25 /* Utilities */,
 				C1812C10AE524542AC6925A1 /* ViewModels */,
 				B8DC9021C05B6D20DF94A7BD /* Views */,
@@ -301,6 +318,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D89B4095C1476C6E803F9E9 /* app_icon.png in Resources */,
+				4FF84BE25ABAECDF8ABB9A83 /* app_icon_dark.png in Resources */,
+				F5D70D28D211E9D46E95DE1C /* app_icon_gray.png in Resources */,
 				A42104577E2A27A7414597D1 /* fodmap_foods_ja.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
