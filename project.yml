@@ -14,11 +14,6 @@ targets:
     platform: iOS
     sources:
       - path: FodCare
-        excludes:
-          - "**/*.xcassets"
-    resources:
-      - path: FodCare/Resources/Assets.xcassets
-      - path: FodCare/Data/SeedData/fodmap_foods_ja.json
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.fodcare.app
