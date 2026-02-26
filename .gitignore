@@ -3,3 +3,9 @@
 DerivedData/
 .build/
 xcuserdata/
+
+# Build artifacts
+build/
+*.ipa
+*.xcarchive
+*.dSYM.zip

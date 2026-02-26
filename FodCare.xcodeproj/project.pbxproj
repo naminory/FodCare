@@ -12,11 +12,15 @@
 		0EAE57C358B4FE5480656131 /* BristolScaleSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF2BEB43369C3D8D1B85655 /* BristolScaleSelector.swift */; };
 		13AE020D9A5F5BBC14400FDE /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7947059D6728922D7B536B /* FoodDetailView.swift */; };
 		1C170173E62C31C95C621F9B /* DateNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1163311D224A3F5935871A2 /* DateNavigator.swift */; };
+		295611288E745D7866B6C590 /* SymptomRecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806C8EA9B20F5D9372D668D0 /* SymptomRecordTests.swift */; };
+		2AA4503AB7AE297D48FA38E1 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3553D8860BEF9A5ABF230A /* HomeViewModelTests.swift */; };
 		324F7F9FBC7EE41BE0636508 /* SymptomRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2A53C58973AF31FAF692C /* SymptomRecord.swift */; };
+		3380DEFFA20C0ECD6C3A0B94 /* AnalysisViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0688BAF94C8CABF95B7F54F /* AnalysisViewModelTests.swift */; };
 		3E391456C14994CBDB300E75 /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE17C2E34E9912A34486F231 /* FoodListView.swift */; };
 		3FA0B8B3DFAC917C22401415 /* SymptomScoreIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBFBBDA996C140A269A1A49 /* SymptomScoreIndicator.swift */; };
 		400ABA5C0FE0F1AF64D2A10A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4C03671E7A6E4CC19052DC /* HomeViewModel.swift */; };
 		468AF722A45CE9D1E43F7D35 /* MealRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13F8EBEBF3D6B5E3768BFE /* MealRecordViewModel.swift */; };
+		46D92F64B2971A5E0DBE6420 /* SymptomRecordViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F53402D62E9AD756D503B3C /* SymptomRecordViewModelTests.swift */; };
 		47477C70A4282C807B486B2D /* FODMAPCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78854F4B0ADA419A2C8B95F5 /* FODMAPCategory.swift */; };
 		4C1FD707C0D8AB7115132DCC /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED324A052542A1C24F5FF8C /* ColorTheme.swift */; };
 		4F07977F0E7AE5CCBD4310B9 /* SymptomRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D08F5D09AA6EBA9E498BFB /* SymptomRecordView.swift */; };
@@ -26,27 +30,43 @@
 		6F0AE0BCD7138618AC320331 /* BristolScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4429ADB7FE0EE519370C86EA /* BristolScale.swift */; };
 		6F99B828978A4FD1D73A3253 /* SymptomRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC2122E783354748537E430 /* SymptomRecordViewModel.swift */; };
 		823F25A19ECC30FD708333D9 /* FoodSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201740AEB1789651049CDF7B /* FoodSearchView.swift */; };
+		839C87513E885B3CCB727390 /* MealRecordViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C3AA91FA84C1D599B087FA /* MealRecordViewModelTests.swift */; };
 		89D84D2A49F450E9A702D957 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7804105E911DB0BC13E60F6 /* ContentView.swift */; };
 		8D89B4095C1476C6E803F9E9 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 250C795ED3274BBC1FDFB5D0 /* app_icon.png */; };
 		9AB4E536FE862CC61F85348A /* FODMAPBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1433ED9AE78444A335505B2D /* FODMAPBadge.swift */; };
 		9BEC59A223777E52DE2C7856 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54018733C69680AF4F81905F /* DataManager.swift */; };
 		A42104577E2A27A7414597D1 /* fodmap_foods_ja.json in Resources */ = {isa = PBXBuildFile; fileRef = C86B202C9C112D9B812AA7DC /* fodmap_foods_ja.json */; };
 		AF70E732492C495788BA33B1 /* MealRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3968A0EB4C2148C0294E6865 /* MealRecord.swift */; };
+		B66F86A75680876623464D1D /* FoodSearchViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A672871ACD8E10B4B0A2A29C /* FoodSearchViewModelTests.swift */; };
 		B89AC6A4FD1392077607D4A7 /* FODMAPInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326FEA847C447D856CD3CA92 /* FODMAPInfoView.swift */; };
 		BA7ACC61504C8F8EED7E7BFD /* FodCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C4540CC005B5CEE7827190 /* FodCareApp.swift */; };
 		CB2E931A24DCE071DE3378A3 /* AnalysisViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68ED8B4CD30FB301B36ED12 /* AnalysisViewModel.swift */; };
+		DB89E8D097E56A8902629BEC /* MealRecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA703162171CB4608C90DBEA /* MealRecordTests.swift */; };
 		DF42D4A71ED9335632CEBAEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30DE9132B49B1E2A1FB4756 /* Assets.xcassets */; };
+		E29B840C714CDCC399AA8F39 /* FoodItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8A1B022847354EA87B91F /* FoodItemTests.swift */; };
 		E518053F63B54FF09B407972 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0675E7196A8E345C44F9656 /* DateHelper.swift */; };
 		E883A77DF7B61F83D4016791 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124942ACE99E27BAC57741FF /* SettingsView.swift */; };
 		EC3DB2B176CEA3AA9053E4D5 /* FODMAPCategoryBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74F3F2E69F43385E68BAAB /* FODMAPCategoryBar.swift */; };
 		EEC68C7BD6A50FA0121F9961 /* FoodSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988C973B5ECE4E9C08AC55DB /* FoodSearchViewModel.swift */; };
 		F5B0B7210A7F3FD48A2D06AC /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5426DD0FACB3B5B8915E2 /* AnalysisView.swift */; };
 		F5D70D28D211E9D46E95DE1C /* app_icon_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F02A9F0B14D4F8A03588C0 /* app_icon_gray.png */; };
+		F712F46E77E66F88861BC421 /* EnumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3210BC5023F2D9CA5EEA2EF6 /* EnumTests.swift */; };
 		FA5A9495DBC4F9EFF71FC2EC /* MealFoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14CB1D77ECED4976FF5A5DF /* MealFoodEntry.swift */; };
 		FDA5524374E5BA59B5057AC1 /* MealRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E853FEE3B1200BE98286EC20 /* MealRecordView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A9A9A3D637945A7E32DB1259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA218198C0412E8A1FF1733D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 715C720536B82671DDDB4C30;
+			remoteInfo = FodCare;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		08C3AA91FA84C1D599B087FA /* MealRecordViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRecordViewModelTests.swift; sourceTree = "<group>"; };
 		106C933D5F7BCA97121A79C1 /* CorrelationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrelationView.swift; sourceTree = "<group>"; };
 		124942ACE99E27BAC57741FF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		13C2A53C58973AF31FAF692C /* SymptomRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomRecord.swift; sourceTree = "<group>"; };
@@ -54,6 +74,7 @@
 		201740AEB1789651049CDF7B /* FoodSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSearchView.swift; sourceTree = "<group>"; };
 		250C795ED3274BBC1FDFB5D0 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
 		2E4C03671E7A6E4CC19052DC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		3210BC5023F2D9CA5EEA2EF6 /* EnumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumTests.swift; sourceTree = "<group>"; };
 		326FEA847C447D856CD3CA92 /* FODMAPInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FODMAPInfoView.swift; sourceTree = "<group>"; };
 		3968A0EB4C2148C0294E6865 /* MealRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRecord.swift; sourceTree = "<group>"; };
 		4429ADB7FE0EE519370C86EA /* BristolScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BristolScale.swift; sourceTree = "<group>"; };
@@ -61,19 +82,27 @@
 		4E13F8EBEBF3D6B5E3768BFE /* MealRecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRecordViewModel.swift; sourceTree = "<group>"; };
 		54018733C69680AF4F81905F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		5DF2BEB43369C3D8D1B85655 /* BristolScaleSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BristolScaleSelector.swift; sourceTree = "<group>"; };
+		5F53402D62E9AD756D503B3C /* SymptomRecordViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomRecordViewModelTests.swift; sourceTree = "<group>"; };
 		64C5426DD0FACB3B5B8915E2 /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
 		6DF8F889DB23029970179F64 /* FodCare.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FodCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F72FB5FEAC105AB524230C /* FODMAPChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FODMAPChartView.swift; sourceTree = "<group>"; };
 		78854F4B0ADA419A2C8B95F5 /* FODMAPCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FODMAPCategory.swift; sourceTree = "<group>"; };
+		806C8EA9B20F5D9372D668D0 /* SymptomRecordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomRecordTests.swift; sourceTree = "<group>"; };
+		86A8A1B022847354EA87B91F /* FoodItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemTests.swift; sourceTree = "<group>"; };
+		8E3F941E07D2E57E0C1A7D4A /* FodCareTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FodCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		988C973B5ECE4E9C08AC55DB /* FoodSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSearchViewModel.swift; sourceTree = "<group>"; };
 		99F02A9F0B14D4F8A03588C0 /* app_icon_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_gray.png; sourceTree = "<group>"; };
+		9C3553D8860BEF9A5ABF230A /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
 		9D74F3F2E69F43385E68BAAB /* FODMAPCategoryBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FODMAPCategoryBar.swift; sourceTree = "<group>"; };
 		9ED324A052542A1C24F5FF8C /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
 		A0675E7196A8E345C44F9656 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		A0688BAF94C8CABF95B7F54F /* AnalysisViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisViewModelTests.swift; sourceTree = "<group>"; };
 		A14CB1D77ECED4976FF5A5DF /* MealFoodEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealFoodEntry.swift; sourceTree = "<group>"; };
+		A672871ACD8E10B4B0A2A29C /* FoodSearchViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSearchViewModelTests.swift; sourceTree = "<group>"; };
 		AE17C2E34E9912A34486F231 /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
 		B47D999295144C0310A868F7 /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
 		B9D08F5D09AA6EBA9E498BFB /* SymptomRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomRecordView.swift; sourceTree = "<group>"; };
+		BA703162171CB4608C90DBEA /* MealRecordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRecordTests.swift; sourceTree = "<group>"; };
 		BFBFBBDA996C140A269A1A49 /* SymptomScoreIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomScoreIndicator.swift; sourceTree = "<group>"; };
 		C4F4212D7E0CBA723C09A1F2 /* app_icon_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_dark.png; sourceTree = "<group>"; };
 		C7804105E911DB0BC13E60F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +117,38 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		0763A0BEEB830BD53E5101F1 /* ViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0688BAF94C8CABF95B7F54F /* AnalysisViewModelTests.swift */,
+				A672871ACD8E10B4B0A2A29C /* FoodSearchViewModelTests.swift */,
+				9C3553D8860BEF9A5ABF230A /* HomeViewModelTests.swift */,
+				08C3AA91FA84C1D599B087FA /* MealRecordViewModelTests.swift */,
+				5F53402D62E9AD756D503B3C /* SymptomRecordViewModelTests.swift */,
+			);
+			path = ViewModelTests;
+			sourceTree = "<group>";
+		};
+		08D67B87A7590B748147C2F7 /* ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				3210BC5023F2D9CA5EEA2EF6 /* EnumTests.swift */,
+				86A8A1B022847354EA87B91F /* FoodItemTests.swift */,
+				BA703162171CB4608C90DBEA /* MealRecordTests.swift */,
+				806C8EA9B20F5D9372D668D0 /* SymptomRecordTests.swift */,
+			);
+			path = ModelTests;
+			sourceTree = "<group>";
+		};
+		109426246CF03C0428E6D930 /* FodCareTests */ = {
+			isa = PBXGroup;
+			children = (
+				08D67B87A7590B748147C2F7 /* ModelTests */,
+				0763A0BEEB830BD53E5101F1 /* ViewModelTests */,
+			);
+			path = FodCareTests;
+			sourceTree = "<group>";
+		};
 		286EE3E57E492A7541F1B9C3 /* Symptom */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				F071BC60981BE164C66E48E2 /* FodCare */,
+				109426246CF03C0428E6D930 /* FodCareTests */,
 				F13B5C291A94E161AD0EFF17 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -247,6 +309,7 @@
 			isa = PBXGroup;
 			children = (
 				6DF8F889DB23029970179F64 /* FodCare.app */,
+				8E3F941E07D2E57E0C1A7D4A /* FodCareTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -271,6 +334,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2AE28CCDAD90DD5D40148785 /* FodCareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 950EA03188BBAADC0ACCA409 /* Build configuration list for PBXNativeTarget "FodCareTests" */;
+			buildPhases = (
+				3EF5CADD4D29BC3D411C86DE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EDADFC6660D2DBA7F0E650C /* PBXTargetDependency */,
+			);
+			name = FodCareTests;
+			packageProductDependencies = (
+			);
+			productName = FodCareTests;
+			productReference = 8E3F941E07D2E57E0C1A7D4A /* FodCareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		715C720536B82671DDDB4C30 /* FodCare */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E29F88147AE61E765F2AD88C /* Build configuration list for PBXNativeTarget "FodCare" */;
@@ -297,6 +378,12 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					715C720536B82671DDDB4C30 = {
+						DevelopmentTeam = XL5369X7NP;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = AF787DD7EFCD26C34DEC8315 /* Build configuration list for PBXProject "FodCare" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -313,6 +400,7 @@
 			projectRoot = "";
 			targets = (
 				715C720536B82671DDDB4C30 /* FodCare */,
+				2AE28CCDAD90DD5D40148785 /* FodCareTests */,
 			);
 		};
 /* End PBXProject section */
@@ -372,125 +460,68 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3EF5CADD4D29BC3D411C86DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3380DEFFA20C0ECD6C3A0B94 /* AnalysisViewModelTests.swift in Sources */,
+				F712F46E77E66F88861BC421 /* EnumTests.swift in Sources */,
+				E29B840C714CDCC399AA8F39 /* FoodItemTests.swift in Sources */,
+				B66F86A75680876623464D1D /* FoodSearchViewModelTests.swift in Sources */,
+				2AA4503AB7AE297D48FA38E1 /* HomeViewModelTests.swift in Sources */,
+				DB89E8D097E56A8902629BEC /* MealRecordTests.swift in Sources */,
+				839C87513E885B3CCB727390 /* MealRecordViewModelTests.swift in Sources */,
+				295611288E745D7866B6C590 /* SymptomRecordTests.swift in Sources */,
+				46D92F64B2971A5E0DBE6420 /* SymptomRecordViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EDADFC6660D2DBA7F0E650C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 715C720536B82671DDDB4C30 /* FodCare */;
+			targetProxy = A9A9A3D637945A7E32DB1259 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		156364BFE3FE242CBBDDBBC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"DEBUG=1",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		22C05EB50E2DCB47B012C5B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fodcare.FodCareTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FodCare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FodCare";
+			};
+			name = Release;
+		};
+		26052F8A500431F09D6642A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fodcare.FodCareTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FodCare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FodCare";
 			};
 			name = Debug;
 		};
 		8E1E087F53F8A41EB916C14C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 6.0;
 			};
@@ -500,22 +531,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XL5369X7NP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "フォドケア";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fodcare.app;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = FodCare;
 			};
 			name = Debug;
 		};
@@ -523,28 +550,33 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XL5369X7NP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "フォドケア";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fodcare.app;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = FodCare;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		950EA03188BBAADC0ACCA409 /* Build configuration list for PBXNativeTarget "FodCareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26052F8A500431F09D6642A5 /* Debug */,
+				22C05EB50E2DCB47B012C5B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		AF787DD7EFCD26C34DEC8315 /* Build configuration list for PBXProject "FodCare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
